@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeopardy!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img src="jeoLogo.png" id="logo" alt="Jeopardy" />
+    </div>
+    <div id="game-title">
+      <h1>Double Jeopardy!</h1>
+    </div>
+    <div id="gameBoard">
+      <div class="boardRow" id="topicRow">
+        <div id="columnTopic1">Topic</div>
+        <div id="columnTopic2">Topic</div>
+        <div id="columnTopic3">Topic</div>
+        <div id="columnTopic4">Topic</div>
+        <div id="columnTopic5">Topic</div>
+        <div id="columnTopic6">Topic</div>
+      </div>
+      <div class="boardRow" id="rowOne">
+        <div id="topic1OneHundred">$200</div>
+        <div id="topic2OneHundred">$2010</div>
+        <div id="topic3OneHundred">$200</div>
+        <div id="topic4OneHundred">$200</div>
+        <div id="topic5OneHundred">$200</div>
+        <div id="topic6OneHundred">$200</div>
+      </div>
+      <div class="boardRow" id="rowTwo">
+        <div id="topic1TwoHundred">$400</div>
+        <div id="topic2TwoHundred">$400</div>
+        <div id="topic3TwoHundred">$400</div>
+        <div id="topic4TwoHundred">$400</div>
+        <div id="topic5TwoHundred">$400</div>
+        <div id="topic6TwoHundred">$400</div>
+      </div>
+      <div class="boardRow" id="rowThree">
+        <div id="topic1ThreeHundred">$600</div>
+        <div id="topic2ThreeHundred">$600</div>
+        <div id="topic3ThreeHundred">$600</div>
+        <div id="topic4ThreeHundred">$600</div>
+        <div id="topic5ThreeHundred">$600</div>
+        <div id="topic6ThreeHundred">$600</div>
+      </div>
+      <div class="boardRow" id="rowFour">
+        <div id="topic1FourHundred">$800</div>
+        <div id="topic2FourHundred">$800</div>
+        <div id="topic3FourHundred">$800</div>
+        <div id="topic4FourHundred">$800</div>
+        <div id="topic5FourHundred">$800</div>
+        <div id="topic6FourHundred">$800</div>
+      </div>
+      <div class="boardRow" id="rowFive">
+        <div id="topic1FiveHundred">$1000</div>
+        <div id="topic2FiveHundred">$1000</div>
+        <div id="topic3FiveHundred">$1000</div>
+        <div id="topic4FiveHundred">$1000</div>
+        <div id="topic5FiveHundred">$1000</div>
+        <div id="topic6FiveHundred">$1000</div>
+      </div>
+    </div>
+    <div id="gameStatus">
+      <div id="timer">5 Second Timer:<span id="questionTimer"></span></div>
+      <div id="answer">Answer:<span id="answerArea"></span></div>
+      <div id="questionWrapper">
+        <input
+          type="text"
+          id="answer"
+          name="What is..."
+          placeholder="What is..."
+        />
+        <input type="submit" id="submit" name="submit" />
+        <input type="submit" id="nav2" name="Nav" />
+      </div>
+    </div>
+    <div id="footer">
+      <div id="scores">Player Scores</div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>

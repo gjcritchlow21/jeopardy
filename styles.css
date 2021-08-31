@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  margin: 0%;
+  background-color: blue;
+  height: 100vh;
+}
+
+/* -----Header------ */
+#header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-image: linear-gradient(blue, silver);
+  padding-bottom: 5px;
+}
+
+#logo {
+  width: 40vw;
+}
+
+/* -----Intro Video----- */
+#intro{
+    height: 45vh;
+    padding-top: 3vh;
+    
+}
+
+#video{
+    border-radius: 5%;
+}
+
+/* -----Status Area------ */
+#gameStatus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 20vh;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gold;
+  border: black 5px solid;
+  border-radius: 1em;
+}
+
+/* Game Board */
+#gameBoard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 40vh;
+    border: black 5px solid;
+    border-radius: 1em;
+    background-image: linear-gradient(to right, blue, silver);
+}
+
+.boardRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+    height: 40vh;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gold;
+}
+
+#rowOne {
+    border-top: black 5px solid;
+}
+
+#scores {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gold;
+}
